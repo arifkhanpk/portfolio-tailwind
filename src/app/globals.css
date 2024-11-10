@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+nav ul li span {
+  display: block;
+  height: 3px; /* Height of the underline */
+  background: #033ad0; /* Color of the underline */
+  width: 0; /* Initially hidden */
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+nav ul li:hover span {
+  width: 100%; /* Show underline on hover */
+}
