@@ -13,7 +13,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row items-center justify-between p-8">
       <div className="about-col-1 md:w-1/2 mb-8 md:mb-0 md:mr-8 flex justify-center">
         <Image
-          src="/images/arif-image.jpg"
+          src="/images/Arif-image.jpg"
           alt="My Picture"
           width={345}
           height={345}
