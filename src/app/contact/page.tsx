@@ -25,7 +25,7 @@ export default function Contact() {
               </Link>
             </div>
             <Link
-              href="/Images/Arif-CV.pdf"
+              href="/images/Arif-CV.pdf"
               download
               className="btn btn2 mt-6 inline-block bg-[#033ad0] text-white py-2 px-4 rounded-lg hover:bg-[#fbf9f917] transition"
             >
